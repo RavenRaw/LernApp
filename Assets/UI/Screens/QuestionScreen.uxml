@@ -1,4 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="StatusBar.uss" />
-    <ui:VisualElement name="Screen" class="StatusBar" style="align-items: stretch;" />
+    <ui:VisualElement style="height: 499px; width: 360px; font-size: 36px; align-items: center; justify-content: center;">
+        <ui:Label text="QuestionScreen" display-tooltip-when-elided="true" />
+    </ui:VisualElement>
 </ui:UXML>

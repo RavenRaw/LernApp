@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<engine:UXML
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:engine="UnityEngine.UIElements"
-    xmlns:editor="UnityEditor.UIElements"
-    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
->
-    
-</engine:UXML>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="NavigationButton.uss" />
+    <ui:VisualElement style="width: 360px; height: 56px; background-color: rgba(188, 188, 188, 255); align-items: center; justify-content: center; flex-direction: row;">
+        <ui:Button display-tooltip-when-elided="true" name="Button1" class="NavigationButton" style="width: 30%; height: 42px; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); background-color: rgba(88, 88, 88, 0); background-image: resource(&apos;UI/BasicVectorIcons/add_circle-24px&apos;); -unity-background-scale-mode: scale-to-fit; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0;" />
+        <ui:Button display-tooltip-when-elided="true" name="Button2" class="NavigationButton" style="width: 30%; height: 42px; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); background-color: rgba(88, 88, 88, 0); background-image: resource(&apos;UI/BasicVectorIcons/add_circle-24px&apos;); -unity-background-scale-mode: scale-to-fit; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0;" />
+        <ui:Button display-tooltip-when-elided="true" name="Button3" class="NavigationButton" style="width: 30%; height: 42px; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); background-color: rgba(88, 88, 88, 0); background-image: resource(&apos;UI/BasicVectorIcons/add_circle-24px&apos;); -unity-background-scale-mode: scale-to-fit; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,5 @@
+.StatusBar {
+    width: 360px;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+}

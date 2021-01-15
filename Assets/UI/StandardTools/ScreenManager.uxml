@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="StatusBarTop" src="StatusBarTop.uxml" />
+    <ui:Template name="AppBarTop" src="AppBarTop.uxml" />
+    <ui:Template name="BottomNavigationBar" src="BottomNavigationBar.uxml" />
+    <ui:Template name="GameScreen" src="/Assets/UI/Screens/GameScreen.uxml" />
+    <ui:Template name="QuestionScreen" src="/Assets/UI/Screens/QuestionScreen.uxml" />
+    <ScreenManager>
+        <ui:Instance template="AppBarTop" name="AppBarTop" />
+        <ui:Instance template="GameScreen" name="GameScreen" />
+        <ui:Instance template="QuestionScreen" name="QuestionScreen" style="display: none;" />
+        <ui:Instance template="BottomNavigationBar" name="BottomNavigationBar" />
+        <ui:Instance template="StatusBarTop" name="StatusBarTop" />
+    </ScreenManager>
+</ui:UXML>
